@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+	<link href="scripts/jquery-ui-1.10.4/css/ui-lightness/jquery-ui-1.10.4.css" rel="stylesheet" />
+	<script src="scripts/jquery-ui-1.10.4/js/jquery-1.10.2.js"></script>
+	<script src="scripts/jquery-ui-1.10.4/js/jquery-ui-1.10.4.min.js"></script>
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+	<script src="cordova.js"></script>
+	<link href="styles/main.css" rel="stylesheet" />
+
+
+	<script src="scripts/config/appConfig.js"></script>
+	<script src="scripts/pushNotifications.js"></script>
+	<script src="scripts/app.js"></script>
+</head>
+<body class="my-container">
+	<header>
+		<div class="app-title">Foo App</div>
+	</header>
+	<article id="tabs" class="main-content">
+		<ul class="nav">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#messages">Messages</a></li>
+			<li><a href="#social">Social</a></li>
+			<li><a href="#app-info">About</a></li>
+		</ul>
+		<div id="home">
+			<div class="logo">The Foo App</div>
+			<div class="text-info">Get the latest information for all the fooness in the world. Stay up to date with the latest trends in the world of Foo.</div>
+		</div>
+		<div id="messages">
+			<div class="control-buttons">
+				<button class="clear-messages control-button">Clear ms</button>
+			</div>
+			<ul class="messages-container">
+				<li>
+					You have no new messages. Just like an anti-social nerd! :)
+				</li>
+			</ul>
+		</div>
+		<div id="social">
+			<div class="text-info"> Nuttin' social in nerd apps :)</div>
+		</div>
+		<div id="app-info">
+			<div class="text-info"> Constructed with much love and type'Os by your friendly neighbourhood developer! </div>
+			<div class="nerd-pic">
+				<img src="styles/images/nerd.jpg">
+			</div>
+		</div>
+	</article>
+
+</body>
+</html>

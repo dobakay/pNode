@@ -1,0 +1,88 @@
+.my-container {
+	width: 100%;
+	height: 500px;
+}
+
+header {
+	text-align: center;
+	background-color: #eee;
+}
+
+.app-title {
+	color: #2aabd2;
+	font-size: 20px;
+}
+
+.main-content {
+	min-height: 800px;
+	background-color: #eee;
+}
+
+.nav {
+	background-color: #2aabd2;
+	text-align: center;
+}
+
+.nav li a {
+	color: #fff;
+}
+
+#home * {
+	font-family: "Comic Sans MS", Impact, Charcoal, cursive, sans-serif;
+}
+
+.logo { 
+	width: 100%;
+	height: 200px;
+	background-color: #2aabd2;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+	padding-top: 20px;
+}
+
+.text-info {
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.messages-container {
+	width: 100%;
+	margin-top: 10px;
+	background-color: #2aabd2;
+	color: #fff;
+	height: 450px;
+	overflow-y: auto;
+	border-radius: 5px;
+	list-style: none;
+	padding: 2px;
+}
+
+.control-button {
+	background-color: #2aabd2;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+}
+
+.messages-container li {
+	font-size: 16px;
+	padding: 0px 1px;
+	background-color: #fff;
+	color: #2aabd2;
+	border-radius: 4px;
+	border-bottom: 1px solid #2aabd2;
+}
+
+.messages-container li:last-chid {
+	border-bottom: none;	
+}
+
+.app-info {
+	text-align: center;
+}
+
+.nerd-pic {
+	margin-top: 10px;
+	padding-left: 10%;
+}

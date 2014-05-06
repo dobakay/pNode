@@ -17,6 +17,7 @@ app.get('/', function(req, res) {
 
 app.post('/register', function(req, res) {
 	res.send('success');
+	res.end();
 });
 
 app.all('*', function(req, res, next) {
