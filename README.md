@@ -31,7 +31,7 @@ to install all dependencies
 *	change ajax url argument in ``app/scripts/app.js`` to point to ``http://yourServerUrl/register``
 *	create Android app with Phonegap
 
-##To start server:
+#To start server:
 
 navigate in command line to the path where the project is downloaded and type in
 
