@@ -4,6 +4,15 @@ Push Notification Server
 Push notification server for demo purposes. Used Google Cloud Messaging.
 Contains a sample client (used with Phonegap).
 
+##Node modules used:
+
+*	Express <http://expressjs.com/>
+*	Node-GCM <https://www.npmjs.org/package/node-gcm>
+
+###Phonegap push notification plug-in:
+
+<https://github.com/phonegap-build/PushPlugin>
+
 #Before you begin: 
 
 ##On server
