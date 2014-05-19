@@ -3,15 +3,24 @@ Push Notification Server
 
 Push notification server for demo purposes. Used Google Cloud Messaging
 
-To turn start:
+#Before you begin: 
+
+-install NodeJS on computer
+-in directory where project is downloaded type
+```
+npm install
+```
+to install all dependencies
+
+#To start:
 
 navigate in command line to the path where the project is downloaded and type in
 
 ```
 node server.js
 ```
-go to browser and open 
+after which open your favourite browser and type in the address bar
 
 ```
-localhost:1337/
+http://localhost:1337/
 ```
