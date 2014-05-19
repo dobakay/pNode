@@ -21,13 +21,41 @@
 				<input id="send-text-box" type="text" placeholder="submit message" class="message-box"/>
 				<button class="submit">Submit</button>
 			</div>
-			<div class="todo">
-				add functionality for unsubing device
-			</div>
 		</article>
 		<footer class="footer">
 			<span class="blue-hightlight">Doba</span>&trade;
 		</footer>
 	</div>
+	<script type="text/javascript">
+		function sendMessage () {
+			var messageStr = $('#send-text-box').val().trim();
+			if( messageStr != '') {
+				$.ajax({
+					url:'http://localhost:1337/sendmessage',
+					type: 'POST',
+					contentType: 'application/json',
+					data: JSON.stringify({
+						message: messageStr
+					}),
+					success: function (data) {
+						console.log(data);
+					},
+					error: function (data) {
+						console.log(data);
+					}
+				});
+				$('#send-text-box').val('');
+			}
+		}
+		$('.submit').on('click', function (e) {
+			sendMessage();
+		});
+
+		$(document).keypress(function(e) {
+			if(e.which == 13) {
+				sendMessage();
+			}
+		});
+	</script>
 </body>
 </html>
