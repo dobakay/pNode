@@ -4,11 +4,10 @@
 	})
 
 	$(document).on('touchend', '.clear-messages', function(e) {
-		// $('.messages-container').empty();
 		var token = appConfig.token,
 			uuid = device.uuid;
 		$.ajax({
-			url: 'http://192.168.1.5:1337/register',
+			url: '/register', // change URL to http://yourServerUrl/register
 			type: 'POST',
 			contentType: 'application/json',
 			data: JSON.stringify({

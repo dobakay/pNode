@@ -1,19 +1,28 @@
 Push Notification Server
 ==================
 
-Push notification server for demo purposes. Used Google Cloud Messaging
+Push notification server for demo purposes. Used Google Cloud Messaging.
+Contains a sample client (used with Phonegap).
 
-##Before you begin: 
+#Before you begin: 
+
+##On server
 
 *	install NodeJS on computer
-*	set the GCM api key in your config.json file
+*	set the GCM api key in config.json file
 *	navigate in command line to the path where the project is downloaded and type in
 ```
 npm install
 ```
 to install all dependencies
 
-##To start:
+##On client
+
+*	set GCM client ID in ``app/scripts/config/appConfig.js``
+*	change ajax url argument in ``app/scripts/app.js`` to point to ``http://yourServerUrl/register``
+*	create Android app with Phonegap
+
+##To start server:
 
 navigate in command line to the path where the project is downloaded and type in
 
