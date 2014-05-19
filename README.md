@@ -6,6 +6,7 @@ Push notification server for demo purposes. Used Google Cloud Messaging
 ##Before you begin: 
 
 *	install NodeJS on computer
+*	set the GCM api key in your config.json file
 *	navigate in command line to the path where the project is downloaded and type in
 ```
 npm install

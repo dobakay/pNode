@@ -1,5 +1,5 @@
 {
 	"host": "localhost",
 	"port": "1337",
-	"gcmApiKey": "AIzaSyA4uj1ioehlB2yscUX8pnRwc4mQenm-x3U"
+	"gcmApiKey": "your GCM API key goes here"
 }
